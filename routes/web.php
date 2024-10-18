@@ -11,3 +11,4 @@ Route::get('/', function () {
 Route::resource('students', \App\Http\Controllers\StudentController::class);
 Route::resource('teachers', \App\Http\Controllers\TeacherController::class);
 Route::resource('courses', \App\Http\Controllers\CourseController::class);
+Route::resource('batches', \App\Http\Controllers\BatchController::class);
